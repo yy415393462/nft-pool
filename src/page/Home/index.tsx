@@ -16,7 +16,7 @@ import useApprove from "../../hooks/useApprove";
 export default function Home() {
 
     const {account} = useWeb3React()
-    const poolAddress = '0x2f3e3DCEb1F89C81835Ad58E91C2Ae21D8FfFe95'
+    const poolAddress = '0x8Fc67ECc3794E7393F6ae479F591a2DfF074704A'
     const [visible, setVisible] = useState(false)
     const cliamNft = useGetNFT()
     const earn = useEarn(poolAddress)
