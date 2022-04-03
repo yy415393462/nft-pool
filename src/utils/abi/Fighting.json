@@ -1,0 +1,1 @@
+[{ "inputs": [{ "internalType": "uint256", "name": "roleID", "type": "uint256" }, { "internalType": "uint256", "name": "weaponID", "type": "uint256" }, { "internalType": "bool", "name": "hasWeapon", "type": "bool" }], "name": "finalCombatEffectiveness", "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }], "stateMutability": "view", "type": "function" }]
