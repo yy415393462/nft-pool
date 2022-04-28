@@ -1,10 +1,15 @@
 import {BigNumber} from "ethers"
 
-export declare interface DonateParams {
+export declare interface poolInfo {
 
-    contract:string,
-    address:string,
-    amount:BigNumber,
-    decimals?:number,
+    id:number,
+    token:string,
+    totalSupply:string,
+    reward:string,
+    supply:string,
+    unlockAt:number,
+    allowance:string
 }
+
+
 

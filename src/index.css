@@ -1,81 +1,35 @@
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-    margin: 0;
-    padding: 0
-}
 
-body {
-    background-color: white;
-}
-
-.mask {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1005;
-    display: block;
+.user-info
+ {
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.55);
-    opacity: 1;
-}
-
-.overlayContent {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    margin-top: -75px;
-    margin-left: -75px;
-    color: #fff;
-    border-radius: 16px;
-}
-
-.cliam {
     display: inline-block;
-    margin: 0px auto;
-    height: 50px;
-    border: 0;
-    color: #FFFFFF;
-    font-size: 18px;
-    background-color: #59A0F6;
-    border-radius: 18px;
+    border: 1px solid #ccc!important;
+    border-radius: 16px!important;
+    margin: 0 auto;
+    min-height: 20vh;
+    vertical-align: top;
+    padding-left: 1%;
 }
 
-.piece {
+.title {
     width: 100%;
     text-align: center;
-    background-color: #f1f5fa;
-    margin-top: 10px;
+    margin: 0 auto;
 }
 
-.piece p {
-    height: 5vh;
-    line-height: 5vh;
+.user-info p {
+    display: inline-block;
+}
+
+.pool {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.console-button {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
 }

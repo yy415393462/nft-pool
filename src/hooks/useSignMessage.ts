@@ -8,7 +8,7 @@ export default function useSignMessage(message:string):[boolean,()=>void]{
     const [runging,setRunging] = useState(false)            //signMessage动作是否已在进行
     const sendMessage= async ()=>{
         try {
-            if (!!account && !! library) {
+            if (!!account && !! library) {
                 setRunging (true)
                 const receipt = await signMessage(account,library,message)
                 console.log(receipt)

@@ -15,8 +15,7 @@ export default function App() {
       4, // Rinkeby
       5, // Goerli
       42, // Kovan
-      56,
-      97,
+      1337
     ],
   })
   useEffect(() => {

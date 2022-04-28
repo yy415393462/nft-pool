@@ -1,0 +1,20 @@
+[
+    {
+        "id":0,
+        "token":"0x562196E94d333060d9D9a50282814daE3ff65b25",
+        "totalSupply":"0",
+        "reward":"0",
+        "supply":"0",
+        "unlockAt":0,
+        "allowance":"0"
+    },
+    {
+        "id":1,
+        "token":"0x6687895D1b77A9E593a3CbC54387C79A9c9974e8",
+        "totalSupply":"0",
+        "reward":"0",
+        "supply":"0",
+        "unlockAt":0,
+        "allowance":"0"
+    }
+]

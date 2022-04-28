@@ -10,12 +10,12 @@ export default function useTokenBalance(contract:string):string{
 	const [balance, setBalance] = useState('0')									                                            //链上token余额
     const blockNumber = useBlockNumber()                                             										//区块ID    
     //区块ID同步
-    useEffect(() => {
-        if (!!account && !! library) {
+    useEffect(() => {
+        if (!!account && !! library) {
             (async ()=> {
                 setBalance(formatEther(await getERC20Balance(contract,library,account)))
             })()
         }
-    }, [library, chainId,account,blockNumber,contract])
+    }, [library, chainId,account,blockNumber,contract])
     return balance
 }
