@@ -12,7 +12,7 @@ export default function useTakeEarn():()=>Promise<void>{
     
 
     const handle = useCallback(async ()=>{
-        if (!!account && !! library) {
+        if (!!account) {
             const contract = getContract(config.pool,masterChef,library,account)
             const response:TransactionResponse = await contract.takeRewardAll()
             const result:TransactionReceipt = await library.waitForTransaction(response.hash)
